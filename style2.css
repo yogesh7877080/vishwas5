@@ -1,0 +1,48 @@
+@media (max-width:750px) {
+    #logo{ width:90%; height: 60%;}
+   #ser{font-size:medium;}
+   #abo{font-size:medium;}
+   #con{font-size:medium;}
+   #main1{ width:100%; height: 80vh; }
+   #photo2{ width:100%; height:80%;padding-top: 5vw;}
+   #wel{ padding-top: 17vw; }
+   #to{ padding-top: 9vw; font-size: 12vw;}
+   #vis{padding-bottom: 20vh;font-size: 12vw;}
+   #irri{padding-bottom: 30vh;font-size: 11vw;}
+   #notice2{ position: relative;  top:1vh}
+   #note{ font-size: larger;}
+   #video2{ height: 80%; width: 90%;padding-top: 5vh;}
+   #main2{ height:60vh }
+   #alllines{ grid-template-columns: 100%; grid-template-rows: 11vh 11vh 11vh 18vh;}
+   #line1{ align-self: bottom;font-size: 3.4vh; }
+   #line2{ align-self: bottom;padding-top: 6vh;font-size: 3.4vh;}
+   #line3{ align-self: bottom; padding-top: 6vh; font-size: 3.4vh;}
+   #line4{align-self: bottom; padding-top: 6vh; font-size: 3.4vh;}
+   #main3{ height:130vh; display: grid; grid-template-columns: 90vw;grid-template-rows: 25vh 25vh 25vh 25vh;}
+   #name1{font-size: 3vh;}
+   #about1{overflow-y: scroll;  }
+   #name2{font-size: 3vh;}
+   #about2{overflow-y: scroll;}
+   #name3{ font-size: 3vh;}
+   #about3{overflow-y: scroll; }
+   #name4{font-size: 3vh;}
+   #about4{overflow-y: scroll;}
+   #main4{display: grid; grid-template-columns: 100vw; grid-template-rows: 10vh 40vh 20vh  ;}
+   #services{font-size: 8vh;}
+   #aboutus{align-self: center;font-size: 2vh;}
+   #brands{ display: grid; grid-template-columns: 100vw; grid-template-rows: 7vh 7vh 7vh 7vh ; align-items: end;}
+   #facebook{ font-size: 6vh;padding-bottom: 6vh; }
+   #google{ font-size: 6vh; padding-bottom: 6vh; }
+   #twitter{font-size: 6vh; padding-bottom: 6vh;}
+   #whatsapp{font-size: 6vh;padding-bottom: 6vh;}
+   #main5{height: 100vh;width: 100%;}
+   #aim{ font-size: 3vh; }
+   #lorem1{ font-size: 1.7vh;}
+   #loco{font-size: 3vh;}
+   #lorem3{font-size: 1.6vh;}
+   #main6{height:60vh;width: 100vw;} 
+   #updated{padding-top: 4vh;}
+   #more{padding-top: 4vh;}
+   #notice{padding-top: 8vh;}
+   #notice::first-letter{font-size: 3vh;color:brown}
+}

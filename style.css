@@ -1,0 +1,112 @@
+*{margin: 0; padding: 0;}
+
+html{ scroll-behavior: smooth;scroll-padding: 10vh;}
+
+body{background-color: rgb(0, 0, 0); z-index: 2;overflow-x: hidden;}
+
+#nav{ height:8vh; width: 100vw;background-color: rgb(143, 14, 14); display:grid; grid-template-columns: 14vw 70vw;grid-template-rows: 15vh;column-gap: 2vw; border-bottom: 1vh solid black; z-index: 1;}
+#options{ width:70vw; display:grid; grid-template-columns:25% 25% 25% 25%; grid-template-rows: 7vh; column-gap: 5%; align-content:center; align-items: start; align-self:start;}
+select{height:60%; width:80%; border-radius: 4vw; align-self: center; background-color: burlywood;}
+#logo{ height:70%; width:60%; transition-duration: 0.5s; transition-property: all;transition-timing-function: ease-in-out;}
+#ser{ text-decoration: none; font-size: 100%; height:70%; font-size: x-large; width:80%; border-radius: 1vh; align-self: center; color:yellow; transition-duration: 0.3s; transition-property: all;transition-timing-function: ease-in-out;}
+#abo{ font-size: x-large; text-decoration: none; color:yellow; height:70%; width:80%;  align-self: center;  border-radius: 1vh; transition-duration: 0.3s;transition-property: all; transition-timing-function: ease-in-out;}
+#con{font-size: x-large; text-decoration: none;  color:yellow;  height:70%;  width:96%;  align-self: center;  border-radius: 1vh; transition-duration: 0.3s; transition-property: all;transition-timing-function: ease-in-out;}
+#logo:hover{transform: scale(1.3); filter:drop-shadow(-2vh -1vh 2vh black)}
+#ser:hover{ background-color: rgb(129, 45, 9); color:rgb(217, 216, 216); font-size: xx-large;}
+#abo:hover{ background-color: rgb(129, 45, 9); color:rgb(217, 216, 216); font-size: xx-large;}
+#con:hover{ background-color: rgb(129, 45, 9); color:rgb(217, 216, 216); font-size: xx-large;}
+#sel:hover{ background-color: rgb(153, 164, 242); color:rgb(217, 216, 216)}
+#cursor{  height:3%;  width:3%; background-color: black; position: fixed; clip-path: circle(); color:aliceblue; z-index: 10;}
+
+#main1{ height:90vh; width:100vw; background-color: rgb(203, 188, 90); display:grid; grid-template-columns: 35vw 60vw; grid-template-rows: 90vh 90vh ;z-index: -1;}
+#letters{height: 90%;  width: 80%; display: grid;  grid:repeat(auto-fill,50vw);grid-template-rows: 23vh 23vh 23vh 23vh; }
+#photo2{ height:98%; width:90%; opacity:0.8;filter:drop-shadow(-3vw -2vw 2vw black);align-self: end;z-index: -1;}
+#nama{ height: 90%; width: 80%; background-color: transparent; filter: blur(2vh);align-self: center; justify-self: center;}
+#wel{font-size:13vw;font-family: "Spicy Rice", serif;font-weight: 400; font-style: normal;align-self: start; align-items:center; text-align: center; color:brown; text-shadow: 2vh 2vh 3vh rgba(255, 217, 0, 0.561);opacity: 1;}
+#to{ font-size:7vw;font-family: "Permanent Marker"; font-weight: 100; font-style: normal; justify-self: center; color:darkgreen; opacity: 1;text-shadow: 2vh 2vh 3vh rgba(183, 125, 33, 0.561);}
+#vis{ font-size:9vw; font-family: "Rowdies", sans-serif; font-weight: 700; font-style: normal; opacity: 1; font-style: normal; align-self: end; text-align: start; color:rgb(47, 117, 161); text-decoration: black dotted underline;}
+#irri{ font-size:8.3vw; font-family: "Modern Antiqua", serif;   font-weight: 400;   font-style: normal; align-self: center;  opacity: 1;  text-align: end;  color:rgb(183, 60, 7); text-decoration: black dotted underline;}
+
+#notice2{ height:2vw; width:100%;  background-color: rgb(0, 0, 0); display: flex; align-items: start;   position: sticky; top:96%; z-index: 10;}
+#note{ text-wrap: nowrap;  color:rgb(236, 213, 183); font-size:3.5vh ; font-weight: 800; color:yellowgreen; z-index: 2;  animation-name: slide; animation-duration: 12s; animation-timing-function: linear; animation-iteration-count: infinite;}
+@keyframes slide {
+    from{transform: translateX(60%);}
+    to{transform: translateX(-100%);}}
+
+#video2{ height:65%; width:80vw; justify-self: center;  padding-left: 7%; padding-bottom:7vh;z-index: -3;} 
+ #video{ position: sticky;top:6%;z-index: -2;}
+
+#main2{  height: 80vh;  width: 100vw;  background-color: rgb(86, 18, 47); z-index: -2; border-bottom: 2vh double goldenrod;}
+#alllines{ display: grid; margin: 0%;  padding: 0%; border-top: 2vh double goldenrod; row-gap: 2%; grid-template-columns: 100%; grid-template-rows: 18vh 18vh 18vh 18vh; backdrop-filter: blur(0.5vh);z-index: 2;}
+#water{color:rgb(30, 126, 243)}
+#droplet{color:lightblue}
+#line1{color:rgb(238, 71, 10);  font-size: 6vw;  align-self: end;  text-align: end; justify-self: center; font-family: "Rubik Mono One", monospace; font-weight: 400; font-style: normal; text-shadow: 1vh 1vh 2vh black;z-index: 2;}
+#line2{color:rgb(19, 171, 209);font-size: 6vw; align-self: start ; justify-self: center; font-family: "Rubik Bubbles", system-ui; font-weight: 400; z-index: 2; font-style: normal; text-shadow: 1vh 1vh 2vh black;}
+#line3{ color:green;font-size: 6vw; align-self: start ; justify-self: center; z-index: 2; font-family: "Rowdies", sans-serif; font-weight: 700;  font-style: normal;text-shadow: 2vh 2vh 2vh black;}
+#line4{color:rgb(128, 17, 138); font-size: 6vw; align-self: start ; z-index: 2; justify-self: center;  font-family: "Spicy Rice", serif; font-weight: 400; font-style: normal; text-shadow: 2vh 2vh 2vh black;}
+
+#main3{   height: 110vh;  width: 100vw;  background-image:url("back.jpg");  background-size: cover; display: grid; grid-template-columns: 38vw 38vw; align-content: center; grid-template-rows: 45vh 45vh; grid-auto-rows: 45vh 45vh;  justify-content: space-evenly; row-gap: 5vh;  border-bottom: 2vh solid rgb(251, 251, 251);}
+#full1{display: grid; grid-template-columns: 100%; grid-template-rows: 40% 10% 50%; justify-content:center ; border: 1vh solid rgb(203, 26, 26);  row-gap: 5%;  backdrop-filter: blur(2vh); border-radius: 2vw ; background-color: rgba(245, 136, 96, 0.466); outline: solid rgb(92, 92, 93) 1vh;}
+#photo1{ height:100%; width:40%; justify-self: center;filter: drop-shadow(-2vh -2vh 3vh black);}
+#name1{ text-align: center; font-weight: 800; font-size: 5vh;}
+#name1::selection{background-color:rgb(0, 0, 0); color:yellow}
+#about1{ overflow-y: auto; height: 80%; width: 100%;text-shadow: 1vh 1vh 2vh black; text-align: center;}
+#about1::selection{background-color:red; color:yellow}
+#full2{ display: grid; grid-template-columns: 100%; grid-template-rows: 40% 10% 50%; justify-content:center ;  border: 1vh solid rgb(38, 247, 6);  row-gap: 5%; backdrop-filter: blur(1vh); border-radius: 2vw ; outline: solid rgb(92, 92, 93) 1vh; background-color: rgba(100, 242, 93, 0.283);}
+#photo23{ height:100%; width:40%;justify-self: center; filter: drop-shadow(-2vh -2vh 3vh black);}
+#name2{text-align: center; font-weight: 800; font-size: 5vh;}
+#name2::selection{background-color:rgb(0, 0, 0); color:yellow}
+#about2{overflow-y: auto;  height: 80%; width: 100%; text-shadow: 1vh 1vh 2vh black; text-align: center; }
+#about2::selection{background-color:red; color:yellow}
+#full3{display: grid; border-radius: 2vw ;  grid-template-columns: 100%; grid-template-rows: 40% 10% 50%;justify-content:center ; border: 1vh solid rgb(247, 223, 6);row-gap: 5%; backdrop-filter: blur(2vh); outline: solid rgb(92, 92, 93) 1vh; background-color: rgba(218, 165, 32, 0.466);}
+#photo3{ height:100%;width:40%; justify-self: center;filter: drop-shadow(-2vh -2vh 3vh black);}
+#name3{text-align: center; font-weight: 800; font-size: 5vh;}
+#name3::selection{background-color:rgb(0, 0, 0); color:yellow}
+#about3{ overflow-y: auto; height: 80%; text-align: center;width: 100%;text-shadow: 1vh 1vh 2vh black;}
+#about3::selection{background-color:red; color:yellow}
+#full4{ display: grid; border-radius: 2vw ; grid-template-columns: 100%; grid-template-rows: 40% 10% 50%; justify-content:center ; border: 1vh solid rgb(8, 109, 164); row-gap: 5%;backdrop-filter: blur(1vh);outline: solid rgb(92, 92, 93) 1vh;background-color: rgba(173, 216, 230, 0.521);}
+#photo4{ height:100%; width:40%;justify-self: center; filter: drop-shadow(-2vh -2vh 3vh black);}
+#name4{ text-align: center; font-weight: 800; font-size: 5vh;}
+#name4::selection{background-color:rgb(0, 0, 0); color:yellow}
+#about4{ height: 80%;  text-align: center;  width: 100%; overflow-y: auto; text-shadow: 1vh 1vh 2vh rgb(164, 208, 235);}
+#about4::selection{background-color:red; color:yellow}
+
+#main4{ height:80vh;width:100vw; background-color: rgba(4, 8, 36, 0.95);  justify-content: end; display:grid; grid-template-columns: 100vw ;  row-gap: 5%; grid-template-rows: 20% 30% 40%; grid-template-rows: 10vh 40vh 40vh ; z-index: 3; border-bottom: 2vh double rgb(248, 248, 248);}
+#protect{ height: 100%; width:100%; grid-row-start: 2; grid-row-end: 3;justify-content: center ;}
+#aboutus{ padding-top: 2vw;  padding-left: 3vw; height: 80%; overflow: auto; font-size: 1.3vw; font-weight: 700; color:rgb(255, 255, 255);  align-self: baseline;  justify-self:center; z-index: 3;font-family:  Verdana;}
+#aboutus::first-letter{ color:rgb(231, 10, 10); font-size: 3vw}
+#services{ height:80%;  width:100%; color:rgba(255, 250, 250, 0.845);  text-align: center; align-self: center; font-size: 10vh; text-decoration: red solid underline; font-weight: 900;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+#brands{ display:grid; height:90%; width: 100%; grid-template-columns: 22% 22% 22% 22%;column-gap: 2%; justify-content: center; text-align: center; align-content: start;}
+#whatsapp{font-size: 11vh; text-decoration: none; font-weight: 300; font-family: Impact;transition-duration: 0.2s;transition-timing-function: linear;transition-property: all;color:rgba(122, 119, 119, 0.749)}
+#whatsapp:hover{color:orange;}
+#google{ font-size: 12vh; text-decoration: none; font-weight: 300; font-family: Impact; transition-duration: 0.2s; transition-timing-function: linear; transition-property: all; color:rgba(122, 119, 119, 0.749)}
+#google:hover{ color:orange}
+#twitter{ font-size: 12vh; text-decoration: none; font-weight: 300; font-family: Impact;transition-duration: 0.2s;transition-timing-function: linear; transition-property: all;color:rgba(122, 119, 119, 0.749)}
+#twitter:hover{color:orange}
+#facebook{ font-size: 12vh; text-decoration: none; font-weight: 300; font-family: Impact; transition-duration: 0.2s; transition-timing-function: linear;transition-property: all;color:rgba(122, 119, 119, 0.749)}
+#facebook:hover{color:orange}
+
+#back2{height:50%;width:100%; background-color: rgb(0, 0, 0);z-index: 5;}
+#footer4{height:40%;width: 100%;overflow: hidden;background-color:rgb(188, 237, 120);border-bottom: 2vh solid whitesmoke; border-top: 2vh solid whitesmoke;}
+#writen2{height: 90%; width: 100%;font-size: 16vw;text-wrap: nowrap;background-color:rgb(188, 237, 120);font-weight: 700;align-items: center;text-align: left;}
+#person{color:rgb(152, 90, 9); font-size: 15vw;}
+#globe{color:rgb(0, 0, 0);font-size: 14vw;}
+#store{font-size: 12vw;}
+#a{color:red; font-size: 15vw;}
+
+#main5{height: 120vh;  width: 100vw;   background-color: rgb(10, 51, 51);  display: grid;  grid-template-columns: 50vw 50vw;  grid-template-rows: 20vh 40vh 30vh; gap:2vh; color:white; font-family: "Kaushan Script", cursive; font-weight: 400; font-style: normal;}
+#focus{ font-size: 3vw;}
+#aim{ font-size: 4vw; align-self: end; font-weight: 600; justify-self: center; text-decoration: red solid underline;}
+#lorem1{ height:90%;  grid-row-start:2 ;  grid-row-end: 7;  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-weight: 600; text-align: center; overflow-y: auto; overflow-x: auto; font-size: 4vh;}
+#loco{font-size: 4vw; align-self: end; font-weight: 600;justify-self: center;text-decoration: rgb(13, 239, 220) solid underline;}
+#lorem2{ grid-row-start: 2;grid-row-end: 3; background-image: url("plant2.jpg"); background-size: cover; background-repeat: no-repeat; border-radius: 5vh; width:80%; height:100%;justify-self: center;}
+#lorem3{ height: 100%; grid-row-start: 3; grid-row-end: 6; font-size: 1.6vw;text-align: center; font-weight: 400; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; width: 70%; justify-self: center; overflow-y: auto; overflow-x: auto;}
+
+#main6{ height:88vh; width:100vw;background-color: rgb(38, 39, 38); border-top: 1vh solid whitesmoke;}
+#image3{ height:10%;  width:10%;}
+.image2{ display: flex;  align-items: center;  justify-content: center;  font-family: "Modern Antiqua", serif;  font-weight: 400; font-style: normal;}
+#terms45{height: 8%; width: 100%;  background-color: rgb(59, 58, 58); color:rgb(255, 255, 255); text-align: center ; font-weight: 700; font-family: "Modern Antiqua", serif; font-weight: 400; font-style: normal;}
+#content{height:10%;  width: 100%;  color:white;  text-align: center; position: relative; top:2vw; font-family: "Modern Antiqua", serif;font-weight: 400; font-style: normal;}
+#updated{height:10%; width:100%; text-align: center; color: white; position: relative; top:3vw; font-family: "Modern Antiqua", serif; font-weight: 400;  font-style: normal;}
+#more{height:10%; width: 100%; color:white; text-align: center; position: relative;  top:4vw;  font-family: "Modern Antiqua", serif; font-weight: 400;font-style: normal;}
+#notice{height:10%; width: 100%; color:white; text-align: center; position: relative; top:5vw; font-family: "Modern Antiqua", serif; font-weight: 400; font-style: normal;}
